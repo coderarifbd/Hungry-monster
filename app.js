@@ -41,7 +41,9 @@ const foodDetails = id => {
             <span id="hide">Close</span>
             <img src="${imgUrl}">
             <h1>${foodName}</h1>
-            <ul id="ingredients-list"></ul>
+            <ul id="ingredients-list">
+                <h4>Ingredients</h4>
+            </ul>
         `
         const ingredientsList = document.getElementById("ingredients-list")
         for (let i = 0; i < ingredients.length; i++) {
