@@ -5,7 +5,7 @@ document.getElementById("submit").addEventListener("click", function () {
 
 
 function getAreaWiseFoodList(area) {
-    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?a=${area}`)
+    fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${area}`)
         .then(res => res.json())
         .then(data => displayFood(data.meals))
 
