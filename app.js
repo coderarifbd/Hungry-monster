@@ -41,8 +41,8 @@ const foodDetails = id => {
             <span id="hide">Close</span>
             <img src="${imgUrl}">
             <h1>${foodName}</h1>
+            <h3 style="text-decoration: underline">Ingredients</h3>
             <ul id="ingredients-list">
-                <h3 style="text-decoration: underline">Ingredients</h3>
             </ul>
         `
         const ingredientsList = document.getElementById("ingredients-list")
